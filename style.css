@@ -1,7 +1,78 @@
-/* Type your code here */
 
+.container{
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+	height: 715px;
+}
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 60px;
+}
 
-/* change the font family and spacing as per your project font */
+#heading{
+	margin: 0px 0px 20px 60px;
+}
+.table{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+table{
+	width: 800px;
+	font-size: 18px;
+	
+}
+table, th, td{
+	border-collapse: collapse;
+	background-color: white;
+}
+thead th, tbody tr, tfoot tr{
+	height: 40px;
+}
+tbody tr{
+	border-bottom: 2px solid rgb(197, 197, 197);
+}
+th{
+	background-color: rgb(253, 75, 10);
+	color: #fff;
+}
+.head{
+	font-weight: 900;
+}
+.names{
+	color: gray;
+}
+.start{
+	text-align: start;
+}
+.runs{
+	text-align: center;
+}
+.end{
+	text-align: end;
+	padding-right: 25px;
+}
+
+.player{
+	color: rgb(37, 147, 250);
+}
+.hide{
+	display: none;
+	position: absolute;
+	top: 255px;
+}
+.player:hover + .hide{
+	color: blue;
+	display: block;
+}
+
+.footer{
+	margin-left: 80px;
+	font-size: 18px;
+}
+
 .footer{
     display:flex;
     flex-direction: row;
